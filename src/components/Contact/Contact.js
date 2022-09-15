@@ -1,8 +1,8 @@
 import React from "react";
 import SocialIcon from "../SocialIcon/SocialIcon";
-import { Box1, ContactWrapper, Email, Outer } from "./ContactElements";
-// import { ContactForm } from "./ContactForm";
-import { HiLocationMarker } from "react-icons/hi";
+import { Box1, ContactWrapper, Outer } from "./ContactElements";
+
+
 import { HiMail } from "react-icons/hi";
 import { FaGithub, FaLinkedin, FaMobileAlt } from "react-icons/fa";
 

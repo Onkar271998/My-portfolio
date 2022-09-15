@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
  background: linear-gradient( #edf2f8, #edf2f8,white);
   font-weight: 400;
-  /* background-image: url("./Assets/back.jpg"); */
+
 }
 
 /* #edf2f8 */
@@ -60,7 +60,7 @@ video {
 }
 
 .btn {
-  /* border: 2px solid rgb(57, 134, 250); */
+  
   padding: 10px 1rem;
   border-radius: 5px;
   cursor: pointer;
@@ -115,10 +115,7 @@ video {
   border-radius: 1rem;
   display: flex;
 
-  /* background: #fff; */
-  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px; */
-  /* box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05); */
+ 
 }
 
 .AboutBio,
