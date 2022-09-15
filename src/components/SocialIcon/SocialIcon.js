@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
-import { FiMail } from "react-icons/fi";
+import { FiMail, FiPhoneCall } from "react-icons/fi";
 
 import styled from "styled-components";
 
@@ -61,6 +61,15 @@ function SocialIcon() {
             rel="noopener noreferrer"
           >
             <FiMail />
+          </a>
+        </li>
+        <li className="item">
+          <a
+            href="tel:7498514749"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FiPhoneCall />
           </a>
         </li>
       </ul>

@@ -11,11 +11,12 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #edf2f8;
+ background: linear-gradient( #edf2f8, #edf2f8,white);
   font-weight: 400;
+  /* background-image: url("./Assets/back.jpg"); */
 }
 
-
+/* #edf2f8 */
 
 a {
   text-decoration: none;
@@ -113,7 +114,7 @@ video {
   padding-left: 2rem;
   border-radius: 1rem;
   display: flex;
-  flex-direction: column;
+
   /* background: #fff; */
   /* box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px; */
   /* box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
@@ -136,21 +137,42 @@ video {
 
 .SectionTitle {
   font-size: 28px;
-  color: #151418;
+  color: #4070f4;
   font-weight: 700;
   margin-bottom: 3.5rem;
+
 }
 .ProjectWrapper {
   margin-top: -1rem;
 }
 
+.contactlogo{
+  
+  margin-left: 20%;
+  opacity: 80%;
+}
+
+
+
+
 /* ------------------------------------ Media for Container */
 
+@media (min-width: 376px){
+
+  .contactlogo{
+  
+    display: none;
+    }
+}
  
 @media (min-width: 576px) {
   .Container {
     max-width: 540px;
     
+  }
+  .contactlogo{
+  
+  display: none;
   }
 }
  
@@ -164,12 +186,17 @@ video {
     margin-top: -5rem;
   }
  
+ 
 }
 @media (min-width: 992px) {
   .Container {
     max-width: 960px;
     /* margin-top: 100px; */
   }
+  .contactlogo{
+  
+    display: block;
+    }
   
 }
 @media (min-width: 1200px) {
@@ -177,5 +204,9 @@ video {
     max-width: 1000px;
     /* margin-top: 100px; */
   }
- 
+  .contactlogo{
+  
+    display: block;
+    }
+   
 }

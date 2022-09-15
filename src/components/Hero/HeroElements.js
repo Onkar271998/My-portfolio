@@ -14,6 +14,9 @@ export const HeroContainer = styled.div`
 
   @media (min-width: 576px) {
     max-width: 540px;
+     
+    
+
   }
   @media (min-width: 768px) {
     max-width: 720px;
@@ -46,7 +49,7 @@ export const HeroLeft = styled.div`
   flex: 1;
 
   h2{
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     color: black;
     opacity: 0.98;
     font-weight: 500;
@@ -57,6 +60,15 @@ export const HeroLeft = styled.div`
     color: black;
     opacity: 0.98;
     font-weight: 500;
+
+    webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    webkit-backface-visibility: visible!important;
+    backface-visibility: visible!important;
+    webkit-animation-name: flipInY;
+    animation-name: flipInY;
   }
 
  
@@ -73,12 +85,13 @@ export const HeroLeft = styled.div`
     color: black;
     opacity: 0.85;
   }
+ 
 
   @media screen and (max-width: 992px) {
     text-align: center;
     align-items: center;
     margin-bottom: 2rem;
-    margin-top:-60px
+    margin-top:-30px
   }
 `;
 

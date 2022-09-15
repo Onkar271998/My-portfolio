@@ -8,17 +8,18 @@ export const Box1 = styled.div`
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
- 
+
   svg {
   //border: 1px solid red;
     height: 30px;
     width: 50px;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     opacity: 0.98;
     font-weight: 400;
   }
+  
   @media (max-width: 576px) {
     svg {
   //border: 1px solid red;
@@ -30,6 +31,7 @@ export const Box1 = styled.div`
     opacity: 0.98;
     font-weight: 400;
   }
+  
   }
   @media (min-width: 992px) {
     svg {

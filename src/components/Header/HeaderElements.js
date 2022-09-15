@@ -10,6 +10,7 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   z-index: 10;
+
 `;
 
 export const NavLink = styled(ScrollLink)`

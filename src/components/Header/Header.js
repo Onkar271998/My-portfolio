@@ -10,16 +10,16 @@ const Header = ({ toggle }) => {
            <h1 style={{fontWeight:"500" ,fontSize:"1.5rm"}} > Onkar Deshmukh</h1>
         </Logo>
         <NavMenu>
-          {/* <NavLink className="menu-item" to="about" smooth={true}>
+          <NavLink className="menu-item" to="about" smooth={true} duration={50}>
             About
-          </NavLink> */}
-          <NavLink className="menu-item" to="skills" smooth={true}>
+          </NavLink>
+          <NavLink className="menu-item" to="skills" smooth={true} duration={50}>
             Skills
           </NavLink>
-          <NavLink className="menu-item" to="projects" smooth={true}>
+          <NavLink className="menu-item" to="projects" smooth={true} duration={50}>
             Projects
           </NavLink>
-          <NavLink className="menu-item" to="contact" smooth={true}>
+          <NavLink className="menu-item" to="contact" smooth={true}duration={80}>
             Contact
           </NavLink>
         </NavMenu>

@@ -8,6 +8,7 @@ import {
   TechName,
   ContactWrapper,
 } from "./AboutElements";
+
 function About() {
   return (
     <>
@@ -35,17 +36,17 @@ function About() {
           <div className="BigCard">
            
             <div className="AboutBio">
+             
           
-              <li
-              >Hello! My name is <strong>Onkar Deshmukh </strong>and I enjoy creating things that live on the internet.
-              </li>
-              <li>
-                I'm a passionate Developer, with strong administrative and communication skills, good attention to detail and the ability to write efficient code using MERN Stack.
-              </li>
-              <li>
-                I built a number of web applications and 4 major projects. Learned a great deal about teamwork, leadership, and communication. After months of rigorous training, here I am looking for an opportunity as a full stack web developer.
-              </li>
-            
+                   <h1>I'am Onkar Deshmukh</h1>
+                   <p>Quick learner and an aspiring full-stack web developer with core knowledge of MERN stack technology. Looking forward to applying and enhancing my skills and knowledge as a developer.</p>
+
+                   <a
+            href="mailto:Onkar271998@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          > 
+          <h2 >Drop a mail @ Onkar271998@gmail.com</h2></a>
             </div>
         
           </div>

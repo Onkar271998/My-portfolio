@@ -2,6 +2,17 @@ import styled from "styled-components";
 
 export const ContactWrapper = styled.div`
   margin-top: -5rem;
+
+  h1{
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  @media (max-width: 576px) {
+
+    margin-top: 8rem;
+  }
+
 `;
 
 export const Image = styled.img`
