@@ -10,6 +10,7 @@ import {
 } from "./AboutElements";
 
 function About() {
+
   return (
     <>
       <svg
