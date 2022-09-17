@@ -3,6 +3,8 @@ import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
 import profile from "../../Assets/onkar1.png";
 import mern from "../../Assets/mern.png";
+import{NavBtn ,NavLink} from "../Header/HeaderElements";
+
 import {
   HeroContainer,
   HeroWrapper,
@@ -18,6 +20,7 @@ function Hero() {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+  // const style={marginTop:"5px"}
   return (
     <main>
       
@@ -36,17 +39,34 @@ function Hero() {
          
           <HeroRight>
     
-            {/* <Image
+            <Image
             
               src={profile}
               alt="Onkar-Deshmukh"
-            /> */}
+            />
            
 
            
           </HeroRight>
           
         </HeroWrapper>
+        
+<div style={{marginTop:"-20px"}}>
+<NavLink  to="contact" smooth={true} duration={50}>
+        <NavBtn>
+        <a
+            className="btn PrimaryBtn"
+         
+          >
+          <h5 style={{fontSize:"15px"}}>contact me</h5>
+          </a>
+        
+        </NavBtn>
+          </NavLink>
+       
+      
+</div>
+       
         
         <ScrollDown to="projects">
           <ScrollLink>

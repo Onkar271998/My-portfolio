@@ -78,6 +78,7 @@ video {
 .PrimaryBtn:hover {
   background:  rgb(43, 49, 57);
   color: #f6f6f6;
+ text-align: center;
 
 }
 
