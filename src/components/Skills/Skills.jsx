@@ -14,6 +14,7 @@ function Skills() {
             <ContactWrapper id="skills">
                 <div className="Container">
                     <div className="SectionTitle" style={{ "margin-top": "150px", "margin-bottom": "0.5rem" }} >Skills</div>
+                    
                     <div className="BigCard">
                         <Technologies>
                             {stackList.map((stack, index) => (

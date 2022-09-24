@@ -30,7 +30,7 @@ function Hero() {
         <HeroWrapper>
           <HeroLeft>
             <h2>Hello, I'am</h2>
-            <h1 style={{animationDuration:"2s"}}>Onkar Deshmukh</h1>
+            <h1 style={{animationDuration:"2s" ,color:"rgb(64,112,244)"}}>Onkar Deshmukh</h1>
             <h5>Full Stack Web Developer</h5>
            
             <img style={{width:"180px" ,height:"50px"}} src={mern}></img>

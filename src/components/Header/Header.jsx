@@ -3,11 +3,11 @@ import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 import logo from "../../Assets/logo.png"
 
 const Header = ({ toggle }) => {
-  return (
+  return (                           
     <div className="Container">
       <Nav>
         <Logo to="/">
-           <h1 style={{fontWeight:"500" ,fontSize:"1.5rm"}} > Onkar Deshmukh</h1>
+           <h1 style={{fontWeight:"500" ,fontSize:"1.5rm"  }} > Onkar Deshmukh</h1>
         </Logo>
         <NavMenu>
           <NavLink className="menu-item" to="about" smooth={true} duration={50}>
